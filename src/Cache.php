@@ -16,6 +16,7 @@
             $this->handler = $handler;
         }
 
+
         public function get(string $key, mixed $default = null): mixed
         {
             return $this->handler->get($key, $default);
