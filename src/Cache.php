@@ -8,10 +8,8 @@
 
     class Cache implements CacheInterface
     {
-        protected CacheHandlerInterface $handler;
-
-
-        public function __construct(CacheHandlerInterface $handler)
+        public function __construct(
+            protected CacheHandlerInterface $handler)
         {
             $this->handler = $handler;
         }
