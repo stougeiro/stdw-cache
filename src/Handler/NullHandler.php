@@ -2,7 +2,7 @@
 
     namespace STDW\Cache\Handler;
 
-    use STDW\Contract\CacheHandlerInterface;
+    use STDW\Contract\Cache\CacheHandlerInterface;
 
 
     class NullHandler implements CacheHandlerInterface

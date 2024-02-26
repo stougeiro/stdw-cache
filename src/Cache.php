@@ -2,8 +2,8 @@
 
     namespace STDW\Cache;
 
-    use STDW\Contract\CacheInterface;
-    use STDW\Contract\CacheHandlerInterface;
+    use STDW\Contract\Cache\CacheHandlerInterface;
+    use STDW\Contract\Cache\CacheInterface;
 
 
     class Cache implements CacheInterface
